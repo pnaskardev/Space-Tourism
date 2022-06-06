@@ -1,0 +1,74 @@
+@import './typography.scss';
+@import './colors.scss';
+html 
+{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+*, *::before, *::after 
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    line-height: 1.5;
+    min-height: 100vh;
+    font-family: $ff-sans-normal;
+    font-size: $fs-400;
+    background-color:$dark ;
+    color: $white;
+}
+
+  
+  
+
+section, aside, div
+ {
+    padding: 20px;
+    border-radius: 12px;
+    --gap:5rem;
+  }
+
+h1 
+{ 
+    font-size: 4rem; 
+}
+
+h2 
+{ 
+    font-size: 3rem; 
+}
+
+h1, h2, h3,picture,figure 
+{
+    margin-top: 0px;
+}
+
+
+img,picture
+{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+input,button,textarea,select
+{
+    font: inherit;
+}
+
+
+@media(prefers-reduced-motion:reduce)
+{
+    *, *::before, *::after 
+    {
+        animation-duration: 0.01s !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}

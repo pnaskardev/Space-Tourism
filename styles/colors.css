@@ -1,0 +1,24 @@
+.bg-dark {
+  background-color: #0b0d17;
+}
+
+.bg-accent {
+  background-color: #d0d6f9;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-dark {
+  color: #0b0d17;
+}
+
+.text-accent {
+  color: #d0d6f9;
+}
+
+.text-white {
+  color: white;
+}
+/*# sourceMappingURL=colors.css.map */

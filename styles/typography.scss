@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap');
+
+// font sizes---------->
+$fs-900:9.375rem;
+$fs-800:6.25rem;
+$fs-700:3.75rem;
+$fs-600:2rem;
+$fs-500:1.75rem;
+$fs-400:1.125rem;
+$fs-300:1rem;
+$fs-200:0.875rem;
+
+// font famlies------>
+$ff-serif:"Bellefair", serif;
+$ff-sans-cond: "Barlow Condensed", sans-serif;
+$ff-sans-normal:"Barlow", sans-serif;
+
+
+
+// font-family-classes------------>
+.ff-serif
+{
+    font-family: $ff-serif;
+}
+.ff-sans-cond
+{
+    font-family:$ff-sans-cond;
+}
+.ff-sans-normal
+{
+    font-family: $ff-sans-normal;
+}
+
+
+// letter-spacinf--------->
+.letter-spacing-1
+{
+    letter-spacing:4.75px;
+}
+.letter-spacing-2
+{
+    letter-spacing: 2.75px;
+}
+.letter-spacing-3
+{
+    letter-spacing:2.35px;
+}
+
+
+// uppercase-------->
+.uppercase
+{
+    text-transform:uppercase;
+}
+
+// font-size classes------------>
+
+.fs-900
+{
+    font-size: $fs-900;
+}
+.fs-800
+{
+    font-size: $fs-800;
+}
+.fs-700
+{
+    font-size: $fs-700;
+}
+.fs-600
+{
+    font-size: $fs-600;
+}
+.fs-500
+{
+    font-size: $fs-500;
+}
+.fs-400
+{
+    font-size: $fs-400;
+}
+.fs-300
+{
+    font-size: $fs-300;
+}
+.fs-200
+{
+    font-size: $fs-200;
+}
+
+
+// line-height---------->
+.fs-900, .fs-800, .fs-700, .fs-600
+{
+    line-height: 1.1;
+}
