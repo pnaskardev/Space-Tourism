@@ -22,6 +22,54 @@
   color: white;
 }
 
+.primary-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  --underline-gap:2rem;
+}
+
+.primary-navigation a {
+  text-decoration: none;
+}
+
+.primary-navigation span {
+  margin-right: 0.5em;
+  font-weight: 700;
+  color: rgba(255, 0, 0, 0.5);
+}
+
+.underline-indicator > * {
+  padding: var(--underline-gap, 1rem) 0;
+  cursor: pointer;
+  border: 0;
+  border-bottom: 0.2rem solid rgba(255, 255, 255, 0);
+}
+
+.underline-indicator > * :hover, .underline-indicator > * :focus {
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.underline-indicator > .active {
+  border-color: rgba(255, 0, 0, 0.25);
+}
+
+.tab-lists {
+  --gap:1rem;
+}
+
+.dot-indicators > * {
+  cursor: pointer;
+  border: 0;
+  border-radius: 50%;
+  padding: 0.5em;
+  background-color: white;
+}
+
+.dot-indicators > *:hover, .dot-indicators > *:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .large-button {
   position: relative;
   padding: 0 2em;
@@ -54,8 +102,7 @@
   transition: transform 750ms linear, ease-in-out, -webkit-transform 750ms linear;
 }
 
-.large-button:hover::after,
-.large-button:focus::after {
+.large-button:hover::after, .large-button:focus::after {
   opacity: 1;
   -webkit-transform: scale(1.5);
           transform: scale(1.5);

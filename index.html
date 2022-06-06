@@ -32,21 +32,23 @@
             <div>
               <h3 class="uppercase">Navigation</h3>
               <nav>
-                <ul class="primary-navigation flex">
-                  <li><a class="uppercase text-white letter-spacing-2" href="#">Active</a></li>
-                  <li><a class="uppercase text-white letter-spacing-2" href="#">Inactive</a></li>
-                  <li><a class="uppercase text-white letter-spacing-2" href="#">Idle</a></li>
+                <ul class="primary-navigation underline-indicator flex">
+                  <li class="active"><a class="uppercase text-white letter-spacing-2" href="#"><span>01</span> Active</a></li>
+                  <li><a class="uppercase text-white letter-spacing-2" href="#"><span>02</span> Inactive</a></li>
+                  <li><a class="uppercase text-white letter-spacing-2" href="#"><span>03</span> Idle</a></li>
                 </ul>
               </nav>
             </div>
 
             <div class="flex">
-                <div style="margin:5rem ;">
-
-
+                <div class="flow" style="margin:5rem ;">
                     <a href="#" class="large-button uppercase ff-serif-600 text-dark bg-white">Explore</a>
+                </div>
 
-
+                <div class="tab-list underline-indicator flex">
+                  <button aria-selected="true" class="uppercase ff-sans-cond text-accent letter-spacing-2 bg-dark">Moon</button>
+                  <button aria-selected="false" class="uppercase ff-sans-cond text-accent letter-spacing-2 bg-dark">Mars</button>
+                  <button aria-selected="false" class="uppercase ff-sans-cond text-accent letter-spacing-2 bg-dark">Europa</button>
                 </div>
             </div>
 
