@@ -1,0 +1,45 @@
+@import './colors.scss';
+$button-color:rgba(255,0,0,0.25);
+
+.primary-navigation
+{
+    
+}
+
+
+// large buttons
+.large-button
+{
+    position: relative;
+    padding: 0 2em;
+    display: grid;
+    aspect-ratio:1;
+    border-radius: 50%;
+    place-items: center;
+    text-decoration: none;
+    background-color: $white;
+    z-index: 1;
+    a
+    {
+        margin: 1rem;
+    }
+}
+.large-button::after
+{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    z-index: -1;
+    background:$button-color;
+    opacity: 0;
+    transition: transform 750ms linear, ease-in-out;
+}
+
+.large-button:hover::after,
+.large-button:focus::after
+{
+    opacity: 1;
+    transform: scale(1.5);
+}

@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Barlow:wght@100;200;300;400;500;600;700;800;900&family=Bellefair&display=swap");
+.bg-dark {
+  background-color: #0b0d17;
+}
+
+.bg-accent {
+  background-color: #d0d6f9;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-dark {
+  color: #0b0d17;
+}
+
+.text-accent {
+  color: #d0d6f9;
+}
+
+.text-white {
+  color: white;
+}
+
 .ff-serif {
   font-family: "Bellefair", serif;
 }
@@ -61,6 +85,19 @@
 
 .fs-900, .fs-800, .fs-700, .fs-600 {
   line-height: 1.1;
+}
+
+.numbered-title {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 4.72px;
+}
+
+.numbered-title span {
+  margin-right: 0.5em;
+  font-weight: 700;
+  color: #625757;
 }
 
 .bg-dark {
